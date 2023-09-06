@@ -14,7 +14,7 @@ app.get('/', function(req, res) {
 });
 
 app.post('/', function(req, res) {
-  const apiKey = "1c2b7607a73faae71ac9504f9f989d38-us21";
+  const apiKey = "MONGODBCONNECTIONURI";
   const email = req.body.email;
   const firstName = req.body.fName;
   const lastName = req.body.lName;
